@@ -1,6 +1,6 @@
-# MatMult – Matrix Multiplication in Fortran
+# FortranMatMult – Matrix Multiplication in Fortran
 
-**MatMult** is a lightweight Fortran program for multiplying matrices of arbitrary size. It was developed as part of my engineering informatics training and reflects foundational knowledge in numerical methods and scientific computing.
+**FortranMatMult** is a lightweight Fortran program for multiplying matrices of arbitrary size. It was developed as part of my engineering informatics training at the University DUE and reflects foundational knowledge in numerical methods and scientific computing.
 
 > 🧠 Matrix multiplication is a core operation in many fields, including the Finite Element Method (FEM) and Machine Learning (AI).
 
@@ -14,17 +14,6 @@
 - Modular structure with separate main and library files (`MatMultMain.f90`, `MatMultlib.f90`)  
 
 ---
-
-## 🚀 Getting Started
-
-### 🔧 Compilation
-
-Use a Fortran compiler like `gfortran`:
-
-```bash
-gfortran -o matmult MatMultMain.f90 MatMultlib.f90
-./matmult
-
 
 📁 ## Repository Structure
 
@@ -48,3 +37,13 @@ Matrix multiplication is a fundamental operation in:
 - **Scientific Computing** – where linear algebra is at the core of simulation, modeling, and data analysis
 - **Machine Learning (AI)** – for operations in neural networks, gradient calculations, and feature transformations  
 - **Engineering Education** – for understanding numerical algorithms and practicing Fortran programming
+
+## 🚀 Getting Started
+
+### 🔧 Compilation
+
+Use a Fortran compiler like `gfortran`:
+
+```bash
+gfortran -o matmult MatMultMain.f90 MatMultlib.f90
+./matmult
